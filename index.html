@@ -125,15 +125,22 @@
                 <div class="col-md-8">
                     <div class="card" data-aos="zoom-in">
                         <div class="card-body">
-                            <form id="contactForm">
+                            <form action="https://formsubmit.co/prabuaditya11@gmail.com" method="POST">
+                                <!-- Customize redirect -->
+                                <input type="hidden" name="_next" value="https://yourdomain.com/thanks.html">
+                                <!-- Customize subject -->
+                                <input type="hidden" name="_subject" value="New Portfolio Contact!">
+                                <!-- Spam protection -->
+                                <input type="hidden" name="_captcha" value="true">
+                                
                                 <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Your Name" required>
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                                 </div>
                                 <div class="mb-3">
-                                    <input type="email" class="form-control" placeholder="Your Email" required>
+                                    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
                                 </div>
                                 <div class="mb-3">
-                                    <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                                    <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-primary w-100">Send Message</button>
                             </form>
@@ -141,11 +148,7 @@
                     </div>
                 </div>
             </div>
-            <div class="social-links text-center mt-5" data-aos="fade-up">
-                <a href="https://github.com/PrabuAditya11" class="mx-2"><i class="fab fa-github"></i></a>
-                <a href="#" class="mx-2"><i class="fab fa-linkedin"></i></a>
-                <a href="https://instagram.com/_prabuaditya" class="mx-2"><i class="fab fa-instagram"></i></a>
-            </div>
+            <!-- ...existing social links... -->
         </div>
     </section>
 
