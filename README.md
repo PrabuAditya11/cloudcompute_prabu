@@ -12,10 +12,6 @@ personal-website
 │   │   └── styles.css
 │   └── js
 │       └── main.js
-├── pages
-│   ├── about.html
-│   ├── contact.html
-│   └── portfolio.html
 ├── index.html
 └── README.md
 ```
@@ -43,5 +39,5 @@ personal-website
 ## Author
 
 Your Name  
-Email: your.email@example.com  
-GitHub: [Your GitHub Profile](https://github.com/yourusername)
+Email: prabuaditya11@gmail.com  
+GitHub: [Prabu](https://github.com/PrabuAditya11)
